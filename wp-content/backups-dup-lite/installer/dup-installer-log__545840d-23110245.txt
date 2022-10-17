@@ -1,0 +1,530 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:46:54
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.34                                |7.4.32
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-05-23 11:02:45
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.0
+DB__________________: 10.4.6
+DB TABLES___________: 18
+DB ROWS_____________: 2,227
+DB FILE SIZE________: 12.24MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.32 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.23.1
+DOC ROOT____________: "/var/www"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http:///dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/20210523_d982d8a7d984d8a8d8a2d8b3d8aad8_[HASH]_20210523110245_archive.zip"
+SIZE________________: 64.46MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db/#innodb_temp' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/auto.cnf' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/#ib_16384_0.dblwr' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/client-key.pem' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/binlog.index' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/#ib_16384_1.dblwr' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/undo_002' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db/mysql' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/undo_001' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/ibdata1' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db/performance_schema' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/private_key.pem' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/server-key.pem' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db/sys' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/mysql.ibd' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/ib_buffer_pool' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/docker-compose/mysql-db/#innodb_redo' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/docker-compose/mysql-db/ca-key.pem' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+
+STEP-1 COMPLETE @ 04:46:59 - RUNTIME: 4.8873 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2002): Connection refused [CODE:2|FILE:/var/www/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Connection refused[ERRNO:2002]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:47:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.30 -- Build Server: 10.4.6
+FILE SIZE:	dup-database__[HASH].sql (13.68MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	On
+
+NOTICE: This servers version [8.0.30] is less than the build version [10.4.6].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	2248
+
+wp_actionscheduler_actions: (17)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (43)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (225)
+wp_postmeta: (1576)
+wp_posts: (260)
+wp_term_relationships: (23)
+wp_term_taxonomy: (6)
+wp_termmeta: (3)
+wp_terms: (6)
+wp_usermeta: (40)
+wp_users: (2)
+wp_wpforms_tasks_meta: (6)
+Removed '17' cache/transient rows
+
+INSERT DATA RUNTIME: 24.0569 sec.
+STEP-2 COMPLETE @ 04:47:53 - RUNTIME: 24.0711 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:48:23
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "قالب استارتاپ"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup"
+path_new______________: "/var/www"
+siteurl_______________: "http://130.185.123.152:5000"
+url_old_______________: "https://demo.hamyarwp.com/tech-startup"
+url_new_______________: "http://130.185.123.152:5000"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "admin@admin.com"
+wp_nickname___________: "admin"
+wp_first_name_________: "admin"
+wp_last_name__________: "admin"
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   225][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1576][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   260][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/s1wpde/domains/demo.hamyarwp.com/public_html/tech-startup" => "/var/www"
+	SEARCH  2:"\/home\/s1wpde\/domains\/demo.hamyarwp.com\/public_html\/tech-startup" => "\/var\/www"
+	SEARCH  3:"%2Fhome%2Fs1wpde%2Fdomains%2Fdemo.hamyarwp.com%2Fpublic_html%2Ftech-startup" => "%2Fvar%2Fwww"
+	SEARCH  4:"\home\s1wpde\domains\demo.hamyarwp.com\public_html\tech-startup" => "/var/www"
+	SEARCH  5:"\\home\\s1wpde\\domains\\demo.hamyarwp.com\\public_html\\tech-startup" => "\/var\/www"
+	SEARCH  6:"%5Chome%5Cs1wpde%5Cdomains%5Cdemo.hamyarwp.com%5Cpublic_html%5Ctech-startup" => "%2Fvar%2Fwww"
+	SEARCH  7:"//demo.hamyarwp.com/tech-startup" ================> "//130.185.123.152:5000"
+	SEARCH  8:"\/\/demo.hamyarwp.com\/tech-startup" =============> "\/\/130.185.123.152:5000"
+	SEARCH  9:"%2F%2Fdemo.hamyarwp.com%2Ftech-startup" ==========> "%2F%2F130.185.123.152%3A5000"
+	SEARCH 10:"https://130.185.123.152:5000" ====================> "http://130.185.123.152:5000"
+	SEARCH 11:"https:\/\/130.185.123.152:5000" ==================> "http:\/\/130.185.123.152:5000"
+	SEARCH 12:"https%3A%2F%2F130.185.123.152%3A5000" ============> "http%3A%2F%2F130.185.123.152%3A5000"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:2210 	|	 Cells:13984 
+UPDATED:	Tables:4 	|	 Rows:420 	|	 Cells:555 
+ERRORS:		0 
+RUNTIME:	5.584800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'admin' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""db""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:48:29 - RUNTIME: 5.7335 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

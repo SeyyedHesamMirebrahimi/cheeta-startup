@@ -1,0 +1,61 @@
+version: "3.7"
+services:
+  web:
+    build:
+      args:
+        user: sysuser
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: php
+    container_name: testLocal
+    restart: unless-stopped
+    environment:
+      - PHP_DISPLAY_ERRORS=1
+      - PHP_MEMORY_LIMIT=2048M
+      - PHP_MAX_EXECUTION_TIME=300
+      - PHP_POST_MAX_SIZE=500M
+      - PHP_UPLOAD_MAX_FILESIZE=1024M
+    volumes:
+      - ./:/var/www
+    working_dir: /var/www/
+
+
+  db:
+    image: mysql:8.0
+    container_name: testLocal-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+      - ./docker-compose/mysql-db:/var/lib/mysql
+
+  nginx:
+    image: nginx:alpine
+    container_name: testLocal-nginx
+    restart: unless-stopped
+    ports:
+      - 5000:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: testLocal-pma
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: ${DB_HOST}
+      PMA_PORT: ${DB_PORT}
+    restart: always
+    ports:
+      - 5001:80
+
+
+

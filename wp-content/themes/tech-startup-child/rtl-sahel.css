@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Sahel';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Sahel/Sahel/Sahel-FD.eot');
+  src: url('fonts/Sahel/Sahel/Sahel-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Sahel/Sahel-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Sahel/Sahel-FD.woff') format('woff'),
+    url('fonts/Sahel/Sahel/Sahel-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahel';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Sahel/Sahel-Bold/Sahel-Bold-FD.eot');
+  src: url('fonts/Sahel/Sahel-Bold/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Sahel-Bold/Sahel-Bold-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Sahel-Bold/Sahel-Bold-FD.woff') format('woff'),
+    url('fonts/Sahel/Sahel-Bold/Sahel-Bold-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahel';
+  font-style: normal;
+  font-weight: lighter;
+  src: url('fonts/Sahel/Sahel-Light/Sahel-Light-FD.eot');
+  src: url('fonts/Sahel/Sahel-Light/Sahel-Light-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Sahel-Light/Sahel-Light-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Sahel-Light/Sahel-Light-FD.woff') format('woff'),
+    url('fonts/Sahel/Sahel-Light/Sahel-Light-FD.ttf') format('truetype');
+}
+
+body, a, ul, li, table, h1, h2, h3, h4, h5, h6, input, textarea, select, button, select, option, p, .woocommerce-Price-amount, .amount, .count, .cart-amount {
+    font-family: sahel !important;
+}
+
+.ast-custom-button , p, .entry-content p , .elementor-widget-heading h6.elementor-heading-title { 
+    font-family: sahel !important;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: sahel;
+}
+
+.elementor-widget-counter .elementor-counter-title {
+    font-family: sahel!important;
+}
+.elementor-widget-counter .elementor-counter-number-wrapper {
+    font-family: sahel!important;
+}
+
+.elementor-132 .elementor-element.elementor-element-79c0d0f .elementor-testimonial-name {
+    font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-4e5e7d0 .elementor-testimonial-name {
+   font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-c7b6964 .elementor-testimonial-name {
+   font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-162c1d6 .elementor-testimonial-name {
+       font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-ff0a5d1 .elementor-testimonial-name {
+       font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-a8ebd90 .elementor-testimonial-name {
+       font-family: sahel!important;
+}
+.elementor-132 .elementor-element.elementor-element-0bab5f2 .elementor-heading-title {
+       font-family: sahel!important;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
